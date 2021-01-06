@@ -1,0 +1,171 @@
+@font-face{
+    font-family: robot;
+    font-style: normal;
+    font-weight: 100;
+    src: url(fonts\Recoleta-Bold.ttf);
+  }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.ch-atom-h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.ch-atom-h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.ch-atom-h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.ch-atom-body-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.ch-atom-body-para {
+  font-size: 14px;
+  font-weight: normal;
+}
+.ch-atom-body-subpara {
+  font-size: 15px;
+  font-weight: 100;
+}
+.ch-font{
+    font-family: Recoleta-Bold;
+}
+/* Header */
+.ch-top-header {
+  background: #63acfc;
+  padding: 5px 15px;
+  height: 34px;
+  line-height: 24px;
+}
+.ch-header--blue {
+  background: #63acfc;
+  padding: 5px 15px;
+  height: 34px;
+  line-height: 24px;
+}
+.ch-header__para {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.ch-header__para--white {
+  color: white;
+}
+.ch-header__logo {
+  width: 126px;
+  height: 52.1875px;
+}
+.ch-header__list {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  color: black !important;
+}
+.ch-header__button {
+  border-bottom-color: rgb(99, 172, 252);
+  border-top-color: rgb(99, 172, 252);
+  border-right-color: rgb(99, 172, 252);
+  border-left-color: rgb(99, 172, 252);
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 400;
+  height: 34px;
+  line-height: 21px;
+  width: 98px;
+  color: rgb(99, 172, 252) !important;
+  letter-spacing: 1px;
+}
+.navbar--mt {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+/* Header */
+/* section1 */
+.ch-atom-body-subpara--weight{
+    font-weight: 500;
+}
+/* section1 */
+.ch-atom-button{
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 18px;
+ width: 160;
+ height: 18px;
+}
+/* section1 */
+
+/* section1 */
+@media only screen and (min-width: 768px) {
+/* Header */
+    .ch-header__logo {
+        width: 170px;
+        height: 52.1875px;
+    }
+/* Header */
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+}
+@media only screen and (min-width: 1024px) {
+/* Header */
+  .navbar--mt {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .ch-header__logo {
+    width: 150.922px;
+    height: 50.3438px;
+  }
+  .ch-header__button {
+    border-bottom-color:rgb(99, 172, 252);
+    border-top-color: rgb(99, 172, 252);
+    border-right-color: rgb(99, 172, 252);
+    border-left-color: rgb(99, 172, 252);
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 21px;
+    width: 120px;
+    color: rgb(99, 172, 252) !important;
+    letter-spacing: 1px;
+    border-width: 2px;
+  }
+/* Header */
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+
+/* section1 */
+}
