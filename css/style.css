@@ -1,9 +1,3 @@
-@font-face{
-    font-family: robot;
-    font-style: normal;
-    font-weight: 100;
-    src: url(fonts\Recoleta-Bold.ttf);
-  }
 html,
 body {
   padding: 0;
@@ -108,7 +102,6 @@ li {
 .ch-atom-body-subpara--weight{
     font-weight: 500;
 }
-/* section1 */
 .ch-atom-button{
  font-size: 16px;
  font-weight: 500;
@@ -153,17 +146,52 @@ li {
   border-radius: 40px;
   height: 664.359px;
 }
+.ch-molc-customer{
+  margin-top: 40px;
+}
+.ch-molc-customer__title{
+  font-size: 28px;
+  font-weight: 800;
+  color: rgb(64, 63, 87);
+  line-height: 31px;
+}
+
+.ch-atom-fontsm{
+  font-size: 12px;
+  font-weight: 600;
+}
 .ch-molc-card{
   width:152.5px ;
   height: 112px;
   margin-bottom: 60px;
+ padding-top: 40px;
 }
 .ch-atom-cardimage{
   width: 70px;
   height: 70px;
 }
+.ch-content-table{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.img-plane1 {
+  position: absolute;
+  transform: translate(125%, -351%);
+  width: 100px;
+}
+.img-plane2 {
+  position: absolute;
+  transform: translate(-67%, 437%);
+  width: 100px;
+}
 
 /* section2 */
+
+
+/*---------------- i pad --------------------- */
+
 @media only screen and (min-width: 768px) {
 /* Header */
     .ch-header__logo {
@@ -188,10 +216,33 @@ li {
 .ch-org-customersupport{
   background-color: rgb(248, 251, 255);
   border-radius: 40px;
-  height: 664.359px;
+  height: 409px;
 }
-.ch-atom-cardimage{
+.ch-content-table{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+.ch-molc-customer__title{
+  font-size: 35px;
+  font-weight: 800;
+  color: rgb(64, 63, 87);
+  line-height: 31px;
+}
+.img-plane1 {
+  position: absolute;
+  transform: translate(414%, -304%);
   width: 100px;
+}
+.img-plane2 {
+  position: absolute;
+  transform: translate(513%, 118%);
+  width: 100px;
+}
+.img-headphone{
+  position: absolute;
+  transform: translate(-13%, -44%);
+    width: 358px;
 }
 /* section2 */
 
@@ -201,6 +252,10 @@ li {
 
 /* section1 */
 }
+
+/*---------------- i pad --------------------- */
+
+/*---------------- Desktop --------------------- */
 @media only screen and (min-width: 1024px) {
 /* Header */
   .navbar--mt {
@@ -231,11 +286,37 @@ li {
 
 /* section1 */
 
-/* section1 */
-
-/* section1 */
-
-/* section1 */
-
-/* section1 */
+/* section2 */
+.ch-content-table{
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 15px;
 }
+.ch-molc-customer__title{
+  font-size: 35px;
+  font-weight: 800;
+  color: rgb(64, 63, 87);
+  line-height: 35px;
+}
+.img-plane1 {
+  position: absolute;
+  transform: translate(634%, -329%);
+  width: 100px;
+}
+.img-plane2 {
+  position: absolute;
+  transform: translate(758%, 126%);
+  width: 100px;
+}
+.img-headphone{
+  position: absolute;
+  transform: translate(-66%, -55%);
+  width: 374px;
+}
+/* section2 */
+
+/* section3 */
+
+/* section3 */
+}
+/*---------------- Desktop --------------------- */
