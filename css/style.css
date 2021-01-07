@@ -17,7 +17,7 @@ li {
 }
 .ch-atom-h2 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .ch-atom-h3 {
   font-size: 14px;
@@ -130,8 +130,8 @@ li {
   font-size: 15px;
   font-weight: 500;
   background-color: rgb(99, 172, 252);
-  height: 60px;
-  width: 160px;
+  height: 50px;
+  width: 130px;
   line-height: 18px;
 }
 .ch-atom-bannerlink{
@@ -188,6 +188,33 @@ li {
 }
 
 /* section2 */
+/* section3 */
+.ch-org-chirpish-work{
+  padding-top: 80px;
+}
+.ch-molc-chirpish-top{
+
+}
+.ch-molc-card2{
+ padding-left: 15px;
+}
+.ch-atom-card-title{
+  font-size: 20px;
+  font-weight: 400;
+}
+.ch-atom-cardimage2{
+  width: auto;
+  height: 90px;
+}
+.ch-molc-card2__para{
+   
+    color: rgb(118, 118, 118);
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 18px;
+    padding-top: 8px;
+}
+/* section3 */
 
 
 /*---------------- i pad --------------------- */
@@ -201,7 +228,7 @@ li {
 /* Header */
 /* section1 */
 .ch-molc-banner__heading{
-  line-height: 57.6px;
+  line-height: 57.6px !important;
   color:rgb(64, 63, 87) ;
   width: 345px;
 }
@@ -247,7 +274,10 @@ li {
 /* section2 */
 
 /* section3 */
-
+.ch-atom-card-title{
+  font-size: 24px;
+  font-weight: 400;
+}
 /* section3 */
 
 /* section1 */
@@ -283,7 +313,14 @@ li {
   }
 /* Header */
 /* section1 */
-
+.ch-molc-banner__para {
+  color: rgb(118, 118, 118);
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 6px;
+}
 /* section1 */
 
 /* section2 */
@@ -316,7 +353,11 @@ li {
 /* section2 */
 
 /* section3 */
-
+.ch-atom-h1{
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 52px;
+}
 /* section3 */
 }
 /*---------------- Desktop --------------------- */
