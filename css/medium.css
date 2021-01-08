@@ -22,7 +22,9 @@
     .ch-org-customersupport{
       background-color: rgb(248, 251, 255);
       border-radius: 40px;
-      height: 409px;
+    }
+    .ch-org-customersupport--height{
+      height:auto;
     }
     .ch-content-table{
         padding-left: 50px;

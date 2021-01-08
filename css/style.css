@@ -151,6 +151,8 @@ li {
 .ch-org-customersupport{
   background-color: rgb(248, 251, 255);
   border-radius: 40px;
+}
+.ch-org-customersupport--height{
   height: 664.359px;
 }
 .ch-molc-customer{
@@ -227,7 +229,30 @@ li {
   height: 195px;
   width: 276px;
 }
+
+/* last section */
+
+/* last section */
 /* section5 */
+
+/* .scroller {
+  width: 300px;
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin:0 auto;
+}
+.containerr {
+  position: relative; 
+  height: 100px;
+  width: 770px;
+}
+.containerr div {
+  height: 90px;
+  width: 60px;
+  float: left;
+  margin: 5px;
+} */
 
 
 
