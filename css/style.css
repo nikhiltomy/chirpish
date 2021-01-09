@@ -137,8 +137,8 @@ li {
   font-size: 15px;
   font-weight: 500;
   background-color: rgb(99, 172, 252);
-  height: 50px;
-  width: 130px;
+  height: 60px;
+  width: 160px;
   line-height: 18px;
 }
 .ch-atom-bannerlink{
@@ -229,12 +229,50 @@ li {
   height: 195px;
   width: 276px;
 }
+/* section10 */
+.ch-keep-in-touch{
+  background-color: rgb(99, 172, 252) !important;
+  color: white;
+}
+.ch-banner-bottom{
+  height: 376px;
+}
+.ch-keep-in-touch--height{
+ height: 451.328px;
+}
+/* section10 */
+/* section11 */
+.form-control--size{
+  border-radius: 100px;
+  width: 270px;
+  height: 60px;
+  display: inline;
+}
+.ch-molc-banner__button--white{
+color: rgb(99, 172, 252);
+background-color: white;
+border-color: rgb(99, 172, 252);
+}
+.ch-org-customersupport--border-blue{
+  border:1px solid rgb(99, 172, 252);
+}
+/* section11 */
+/* footer */
+.ch-org-footer{
 
-/* last section */
-
-/* last section */
-/* section5 */
-
+}
+.ch-molc-footer-list{
+padding: 0;
+}
+.ch-molc-footer-list__item{
+  font-size: 13px;
+  padding: 10px;
+}
+.ch-molc-footer-list__item2{
+font-size: 9px;
+padding: 5px;
+}
+/* footer */
 /* .scroller {
   width: 300px;
   height: 100px;
