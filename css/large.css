@@ -74,6 +74,16 @@
   font-weight: 800;
   line-height: 52px;
 }
+.ch-arrow-right{
+  transform: translate(530%, -457%) rotate(9deg);
+  height: 36.2188px;
+  width: 100px;
+}
+.ch-arrow-left{
+  transform: translate(-188%, -444%) scaleX(1) rotate(7deg);
+  height: 36.2188px;
+  width: 100px;
+}
 /* section3 */
 /* section5 */
 .ch-molc-service-card{

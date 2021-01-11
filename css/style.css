@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Spartan', sans-serif;
+ font-family: 'Spartan', sans-serif;
 }
 a {
   text-decoration: none;
@@ -16,8 +16,9 @@ li {
   line-height: 33px;
 }
 .ch-atom-h2 {
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 800;
+  
 }
 .ch-atom-h2--grey{
  color: rgb(64, 63, 87);
@@ -40,7 +41,7 @@ li {
   font-weight: 100;
 }
 .ch-font{
-  font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif !important;
 }
 .flexbox {
   display: flex;
@@ -213,7 +214,7 @@ li {
 }
 .ch-atom-cardimage2{
   width: auto;
-  height: 90px;
+  height: 105px;
 }
 .ch-molc-card2__para{
    
@@ -222,6 +223,16 @@ li {
     font-weight: 400px;
     line-height: 18px;
     padding-top: 8px;
+}
+.ch-arrow-right{
+  transform: translate(160%, -360%) rotate(50deg);
+  height: 36.2188px;
+  width: 100px;
+}
+.ch-arrow-left{
+  transform: translate(-148%, -380%) scaleX(-1) rotate(58deg);
+  height: 36.2188px;
+  width: 100px;
 }
 /* section3 */
 /* section5 */
@@ -266,7 +277,7 @@ padding: 0;
 }
 .ch-molc-footer-list__item{
   font-size: 13px;
-  padding: 10px;
+  padding: 8px;
 }
 .ch-molc-footer-list__item2{
 font-size: 9px;
