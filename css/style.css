@@ -55,6 +55,17 @@ li {
   height: 40px !important;
   max-width: 45px !important;
 }
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color:  rgb(99, 172, 252);
+  color: white;
+}
+.carousel-image{
+  position: absolute;
+  top: 12px;
+}
 /* Header */
 .ch-top-header {
   background: #63acfc;
@@ -240,6 +251,22 @@ li {
   height: 195px;
   width: 276px;
 }
+/* section5 */
+/* section9 */
+.ch-org-flexiblecard{
+
+}
+.ch-molc-flexiblecard{
+  width :290px;
+  height:  390px;
+  background-color: rgb(248, 251, 255);
+  border-radius: 25px;
+}
+.ch-atom-fleximage{
+width: 226.656px;
+height: 185px;
+}
+/* section9 */
 /* section10 */
 .ch-keep-in-touch{
   background-color: rgb(99, 172, 252) !important;
@@ -284,26 +311,3 @@ font-size: 9px;
 padding: 5px;
 }
 /* footer */
-/* .scroller {
-  width: 300px;
-  height: 100px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  margin:0 auto;
-}
-.containerr {
-  position: relative; 
-  height: 100px;
-  width: 770px;
-}
-.containerr div {
-  height: 90px;
-  width: 60px;
-  float: left;
-  margin: 5px;
-} */
-
-
-
-
-
